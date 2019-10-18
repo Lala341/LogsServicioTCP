@@ -1,0 +1,8 @@
+10-18-2019-11:10:32 El servidor va a enviar archivos con el nombre: test03.jpg
+10-18-2019-11:10:32-Cliente conectado puerto: 55573 Con ip: 127.0.0.1 Con ID: 0
+10-18-2019-11:10:32-Enviando ID de cliente 01
+Nombre del archivo: test03.jpg
+Archivo de tamano: 302320
+Con hash igual a: 97acd6dfbe1151b9aa0f00cc9eae2aa1
+10-18-2019-11:10:32 EL CLIENTE 01 CONFIRMA QUE EL ARCHIVO FUE TRASNFERIDO EN PERFECTO ESTADO
+10-18-2019-11:10:32 Finaliza conexion con el cliente 1

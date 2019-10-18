@@ -1,0 +1,7 @@
+10-18-2019-11:09:37-Cliente conectado puerto
+10-18-2019-11:09:37-Enviado LISTO10-18-2019-11:09:37-Inicio Envio110-18-2019-11:09:37-Receiving data-Paquete 1 de 1
+10-18-2019-11:09:37-Tiempo total de transferencia 0:00:00.000213
+10-18-2019-11:09:37-Este es el hash calculado por el servidor: 1e2594746f397775f765b6358a61e43f
+10-18-2019-11:09:37-Este es el hash calculado por el cliente: 1e2594746f397775f765b6358a61e43f
+10-18-2019-11:09:37-EL ARCHIVO ESTA SIN ERRORES
+10-18-2019-11:09:37-Socket cerrado

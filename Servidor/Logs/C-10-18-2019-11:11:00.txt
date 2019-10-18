@@ -1,0 +1,8 @@
+10-18-2019-11:11:00 El servidor va a enviar archivos con el nombre: test05.mov
+10-18-2019-11:11:00-Cliente conectado puerto: 55577 Con ip: 127.0.0.1 Con ID: 0
+10-18-2019-11:11:00-Enviando ID de cliente 01
+Nombre del archivo: test05.mov
+Archivo de tamano: 94576870
+Con hash igual a: 577a5e1a4922a7085e7ac3204d25f127
+10-18-2019-11:11:00 EL CLIENTE 01 CONFIRMA QUE EL ARCHIVO FUE TRASNFERIDO EN PERFECTO ESTADO
+10-18-2019-11:11:00 Finaliza conexion con el cliente 1
