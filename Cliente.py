@@ -80,7 +80,7 @@ try:
             x = datetime.datetime.now().strftime("%m-%d-%Y-%H:%M:%S")
             f.write(x+"-Receiving data-Paquete "+str(cont)+" de "+str(num)+'\n')
             cont += 1
-            time.sleep(0.001)
+            time.sleep(0.02)
             data = sock.recv(1024)
             far.write(data)
             
