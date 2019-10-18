@@ -8,13 +8,13 @@ Created on Tue Sep 24 07:16:39 2019
 
 import socket
 import sys
-#import git
+import git
 import datetime
 import hashlib
 import math
 
 #Local repo on your computer
-#repo = git.Repo( './' )
+repo = git.Repo( './' )
 x = datetime.datetime.now().strftime("%m-%d-%Y-%H:%M:%S")
 nameFile="./Cliente/Logs/"+"C-"+x+".txt"
 f= open(nameFile,"w+")
@@ -26,6 +26,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  
 # Conecta el socket en el puerto cuando el servidor esté escuchando
 server_address = ('localhost', 1420)
+#server_address = ('52.90.157.235', 1420)
 print (sys.stderr, 'conectando a %s puerto %s' % server_address)
 sock.connect(server_address)
 x = datetime.datetime.now().strftime("%m-%d-%Y-%H:%M:%S")
@@ -120,8 +121,8 @@ finally:
     f.close()
     
 sock.close()
-"""origin = repo.remote('origin')
+origin = repo.remote('origin')
 origin.pull()
 repo.git.add(u=True)
 repo.git.commit(m='Adding logs via python')
-origin.push()"""
+origin.push()
