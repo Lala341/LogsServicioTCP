@@ -27,7 +27,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  
 # Conecta el socket en el puerto cuando el servidor esté escuchando
 #server_address = ('localhost', 1420)
-server_address = ('52.90.157.235', 1420)
+server_address = ('52.90.157.235', 1421)
 print (sys.stderr, 'conectando a %s puerto %s' % server_address)
 sock.connect(server_address)
 x = datetime.datetime.now().strftime("%m-%d-%Y-%H:%M:%S")
@@ -75,6 +75,7 @@ try:
         num = int(num)
         instanteInicial = datetime.datetime.now()
         f.write(x+"-Inicio Envio"+str(num))
+        
         for i in range(num):
             print('Recibiendo archivo numero '+str(cont)+' de '+str(num))
             x = datetime.datetime.now().strftime("%m-%d-%Y-%H:%M:%S")
