@@ -25,8 +25,8 @@ hasher = hashlib.md5()
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
  
 # Conecta el socket en el puerto cuando el servidor esté escuchando
-server_address = ('localhost', 1420)
-#server_address = ('52.90.157.235', 1420)
+#server_address = ('localhost', 1420)
+server_address = ('52.90.157.235', 1420)
 print (sys.stderr, 'conectando a %s puerto %s' % server_address)
 sock.connect(server_address)
 x = datetime.datetime.now().strftime("%m-%d-%Y-%H:%M:%S")
